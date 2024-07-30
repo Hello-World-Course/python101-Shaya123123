@@ -15,7 +15,7 @@ else:
         board_size = None
     if board_size is not None and  board_size//2 >= number_of_mines and number_of_mines >0 and isinstance(board_size,int) and isinstance(number_of_mines,int):
         print(f"{name}, the board size is: {board_size}, number of mines is: {number_of_mines}")
-    elif board_size is not None and board_size//2 < number_of_mines and number_of_mines <=0:
+    elif board_size is not None or board_size//2 < number_of_mines or number_of_mines <=0:
         print(f"{name}, you have entered illegal number of mines")
     else:
         number_of_mines = None
