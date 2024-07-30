@@ -29,3 +29,4 @@ else:
     else:
         print("Please enter a valid number for board size")
         board_size = None
+
