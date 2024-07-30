@@ -1,4 +1,7 @@
 # THIS CODE IS WRONG, FIX IT AND ADD NEW CODE
+name = None
+board_size = None
+number_of_mines = None
 name = input("Hello, whats your name")
 if name <= "2":
     print("Your name is too short")
