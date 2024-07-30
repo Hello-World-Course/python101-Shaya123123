@@ -18,5 +18,5 @@ else:
         print(f"{name}, the board size is: {board_size}, number of mines is: {number_of_mines}")
     else:
         print(f"{name}, you have entered illegal number of mines")
-
+        number_of_mines = None
 #2222
