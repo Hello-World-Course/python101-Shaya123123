@@ -19,4 +19,4 @@ else:
     else:
         print(f"{name}, you have entered illegal number of mines")
         number_of_mines = None
-#2222
+#2
