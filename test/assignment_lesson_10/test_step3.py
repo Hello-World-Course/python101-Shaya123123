@@ -14,7 +14,7 @@ class TestUi(AssignmentTester):
             pass
 
     @devin_test_decorator
-    def test_1_name(self, mock_input, message):
+    def test_1_name(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = True
@@ -24,7 +24,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_1_name_2(self, mock_input, message):
+    def test_1_name_2(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = False
@@ -34,7 +34,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_1_name_3(self, mock_input, message):
+    def test_1_name_3(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = False
@@ -44,7 +44,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_2_board_size_1(self, mock_input, message):
+    def test_2_board_size_1(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = False
@@ -54,7 +54,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_2_board_size_2(self, mock_input, message):
+    def test_2_board_size_2(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = False
@@ -64,7 +64,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_2_board_size_3(self, mock_input, message):
+    def test_2_board_size_3(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = True
@@ -74,7 +74,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_3_number_of_mines_1(self, mock_input, message):
+    def test_3_number_of_mines_1(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = False
@@ -84,7 +84,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_3_number_of_mines_2(self, mock_input, message):
+    def test_3_number_of_mines_2(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = False
@@ -94,7 +94,7 @@ class TestUi(AssignmentTester):
         self.assertEqualWithMessage(real_result, expected_result, msg=message)
 
     @devin_test_decorator
-    def test_3_number_of_mines_3(self, mock_input, message):
+    def test_3_number_of_mines_3(self, message):
         # test
         import project.ui.user_interaction as user_interaction
         expected_result = True
