@@ -1,4 +1,3 @@
-
 def is_name_valid(name):
     return len(name) > 2
 
