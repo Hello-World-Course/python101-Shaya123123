@@ -33,7 +33,6 @@
 def is_name_valid(name):
     return len(name) > 2
 
-
 def is_board_size_valid(board_size):
     return board_size > 0 and board_size <= 26
 
