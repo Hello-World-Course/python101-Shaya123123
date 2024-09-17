@@ -6,4 +6,3 @@ def parse_cmd(command):
     else:
         parameters = None
     return command_name, parameters
-
