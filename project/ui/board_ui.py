@@ -4,5 +4,5 @@ def parse_cmd(command):
     if len(command_parts) > 1:
         parameters = " ".join(command_parts[1:])
     else:
-        parameters = None
+        parameters = []
     return command_name, parameters
