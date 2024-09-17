@@ -5,4 +5,4 @@ def parse_cmd(command):
         parameters = " ".join(command_parts[1:])
     else:
         parameters = []
-    return command_name, parameters
+    return [command_name, parameters]
