@@ -11,3 +11,4 @@ def safe_set_value(x, y, value, board):
         return True
     else:
         return False
+
